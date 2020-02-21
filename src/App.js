@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Phonics from './phonics/Phonics';
+import GamesContainer from './gamesContainer/GamesContainer';
 
 
 class App extends React.Component {
 
+
   render() {
-    return <Phonics />;
+    return <GamesContainer gameName={window.location.pathname.replace('/', '')}/>;
   }
 }
 
