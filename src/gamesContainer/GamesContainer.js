@@ -1,5 +1,5 @@
 import React from 'react';
-import Phonics from '../phonics/Phonics';
+import Phonics from '../games/phonics/Phonics';
 import GamesMenu from '../gamesMenu/GamesMenu';
 
 class GamesContainer extends React.Component {
